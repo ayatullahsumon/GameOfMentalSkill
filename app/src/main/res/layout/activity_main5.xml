@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developer"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/im6"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md. Ayatullah"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/color2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc. in Electronics and Communication Enginnering, HSTU"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/color2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Chapainawabganj, Rajshahi"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/color2"
+        />
+
+</LinearLayout>
